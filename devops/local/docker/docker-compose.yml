@@ -79,7 +79,7 @@ services:
     image: productlist-1295
     container_name: productlist-1295
     ports: 
-      - 8009:8009
+      - 8010:8010
     env_file: .env
     depends_on:
       - mongo
